@@ -1,34 +1,36 @@
 # Student Management System
 
-## Description
-A Spring Boot REST API project to manage students with CRUD operations.
+## 📌 Description
+A Spring Boot REST API for managing students using JPA EntityManager.
+Includes CRUD operations and global exception handling.
 
-## Technologies Used
+## 🛠 Tech Stack
 - Java
 - Spring Boot
 - Spring MVC
-- Hibernate / JPA
-- MySQL
+- JPA (EntityManager)
+- H2 Database
 - Maven
-- Postman
 
-## Features
-- Add a student
-- Get all students
-- Get student by ID
-- Update student
-- Delete student
-- Global exception handling
+## 📂 Features
+- Create Student
+- Get All Students
+- Get Student by ID
+- Update Student
+- Delete Student
+- Global Exception Handling
 
-## API Endpoints
-POST    /api/student
-GET     /api/student
-GET     /api/student/{id}
-PATCH   /api/student/{id}
-DELETE  /api/student/{id}
-
-## How to Run
+## ▶ How to Run
 1. Clone the repository
-2. Configure MySQL in `application.properties`
-3. Run the Spring Boot application
+2. Open in IDE
+3. Run `StudentManagementApplication`
 4. Test APIs using Postman
+
+## 🔗 API Endpoints
+| Method | Endpoint |
+|------|---------|
+| POST | /api/students |
+| GET | /api/students |
+| GET | /api/students/{id} |
+| PUT | /api/students/{id} |
+| DELETE | /api/students/{id} |
